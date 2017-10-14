@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MobileGuard25-手机卫士</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="version_1_0">version:1.0</string>
+    <string name="message">确定</string>  
+    <string name="message1">取消</string>  
+    <string name="message2">输入密码</string>  
+    <string name="message3">请再次输入密码</string>  
+    <string name="message4">设置密码</string>  
+    <string name="message5">版本号</string>  
+    <string name="message6">高级工具</string>
+</resources>

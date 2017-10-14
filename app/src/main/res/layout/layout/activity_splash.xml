@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch_bg"
+    tools:context="cn.edu.gdmec.android.mobileguard.SplashActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/tv_splash_version"
+        android:layout_alignStart="@+id/tv_splash_version"
+        android:layout_marginBottom="78dp" />
+    <TextView
+        android:id="@+id/tv_splash_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#ffff00"
+        android:textColor="#A2A2A2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_below="@+id/progressBar1"
+        android:shadowRadius="2"
+        android:text="@string/message5"
+        android:textSize="16sp"/>
+
+</RelativeLayout>
